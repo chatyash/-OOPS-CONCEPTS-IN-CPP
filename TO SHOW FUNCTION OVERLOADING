@@ -1,0 +1,28 @@
+#include <iostream>
+ using namespace std;
+ void display ( ) 
+{
+  int a = 8;
+  cout << a << endl;
+}
+void display (int a ) 
+{
+  cout << a << endl;
+}
+void display (double a ) 
+{
+   cout << a << endl;
+}
+void display(int a, float b) 
+{
+   cout<< a << " , " << b << endl;
+}
+
+int main()
+{
+  display();
+  display(2); 
+  display(5.7); 
+  display(6,9.0); 
+  return 0;
+ } 
